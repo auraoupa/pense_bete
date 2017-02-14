@@ -1,4 +1,4 @@
-# Pense Bete
+# Penses Bete
 
 ## Les commandes utiles
 
@@ -12,3 +12,7 @@
 * scp via tunnel : scp -P 8383 CDFTOOLS-master.zip albert6a@localhost:~/.
 
 * rsync via tunnel : rsync -e 'ssh -p 8383' -arv albert6a@localhost:/store/albert6a/NATL60/NATL60-CJM165-S/AURELIEN/gridU_20130${m}.tar .
+
+### Trucs netcdf :
+
+* pour transformer un fichier netcdf4 en pas netcdf4 : nccopy -k '64-bit offset' NATL12ext_bathymetry.nc NATL12ext_bathymetry_nonetcdf4.nc
