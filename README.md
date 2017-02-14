@@ -13,6 +13,36 @@
 
 * rsync via tunnel : rsync -e 'ssh -p 8383' -arv albert6a@localhost:/store/albert6a/NATL60/NATL60-CJM165-S/AURELIEN/gridU_20130${m}.tar .
 
+### Trucs bash
+
+* rajouter un 0 devant $m 
+
+      mm=$(printf "%02d" $m)
+    
+* lister et ranger par ordre croissant de taille de dossiers    
+
+      du -sh | sort -n -r
+      
+* avoir des infos sur les commandes en cours
+
+      ps -rf | grep rsync
+
 ### Trucs netcdf :
 
 * pour transformer un fichier netcdf4 en pas netcdf4 : nccopy -k '64-bit offset' NATL12ext_bathymetry.nc NATL12ext_bathymetry_nonetcdf4.nc
+
+
+### Trucs Gimp
+
+* rendre une image transparente :
+  * clic droit -> calques -> ajouter canal alpha
+  * (selectionner zone) clic droit -> édition -> effacer
+  * edition -> fondu effacer ... (réglage % transparence)
+  
+### Trucs open-office
+
+#### Presentation
+
+* mettre une image en fond de slide :
+  * format -> remplissage -> bitmaps -> import
+  * format -> page -> arrière-plan -> bitmap
