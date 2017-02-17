@@ -46,3 +46,7 @@
 * mettre une image en fond de slide :
   * format -> remplissage -> bitmaps -> import
   * format -> page -> arrière-plan -> bitmap
+
+### Trucs conda
+
+ * proxy_servers https: https://www-cache.ujf-grenoble.fr:3128 dans ~/.condarc
