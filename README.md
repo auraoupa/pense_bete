@@ -50,3 +50,7 @@
 ### Trucs conda
 
  * proxy_servers https: https://www-cache.ujf-grenoble.fr:3128 dans ~/.condarc
+ 
+### Trucs vi
+
+ *  error `E576: viminfo: Missing '>' in line: [file names]` ->  in `~/.viminfo` delete everything in the section labeled `# History of marks within files (newest to oldest):`.
