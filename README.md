@@ -50,6 +50,15 @@
 ### Trucs conda
 
  * proxy_servers https: https://www-cache.ujf-grenoble.fr:3128 dans ~/.condarc
+
+ * myenv environment : in ~/anaconda2/conda-env
+    * conda list --explicit > spec-file.txt
+    * conda create --name myenv --file spec-file.txt
+    
+ * pandoc environment :
+    * conda create --name pandoc-env python=3.5
+    * source activate pandoc-env
+    * append PATH : /home/albert/anaconda2/lib/ where ligmp.so.3 is
  
 ### Trucs vi
 
