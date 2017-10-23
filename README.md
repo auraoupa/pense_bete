@@ -26,6 +26,10 @@
 * avoir des infos sur les commandes en cours
 
       ps -rf | grep rsync
+      
+* chercher un fichier dans un répertoire
+
+      find . -name "*truc*"
 
 ### Trucs netcdf :
 
