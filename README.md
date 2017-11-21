@@ -21,7 +21,7 @@
     
 * lister et ranger par ordre croissant de taille de dossiers    
 
-      du -sh | sort -n -r
+      du -h --max-depth=1 | sort -n -r
       
 * avoir des infos sur les commandes en cours
 
